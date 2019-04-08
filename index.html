@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- bootStrap-css links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header ">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12">
+                   <div class="content">
+                       <h1>Budget For Month </h1>
+                       <h2><span class="green budget__lable">1200,00</span> $</h2>
+                    </div>
+                       <div class="income mb-2 d-flex justify-content-around">
+                           <span class="black  ">income</span>
+                           <span class="blue income__lable">200 </span> <span>$</span>
+                       </div>
+                       <div class="expense d-flex justify-content-around">
+                            <span class="black">expenses</span>
+                            <span class="blue expense__lable">100 </span>
+                            <span>$</span>
+                            <span class="percentage__lable perc"></span>
+                        </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="inputs">
+                    <form>
+                            <div class="form-row">
+                                    <div class="form-group col-md-2">
+                                            <label for="inputState">type</label>
+                                            <select id="inputState" class="form-control add__type">
+                                              <option selected value="inc">+</option>
+                                              <option value="exp">-</option>
+                                            </select>
+                                          </div>
+                              <div class="form-group col-md-3">
+                                <label for="inputEmail4">description</label>
+                                <input type="text" class="form-control add__description" id="inputEmail4" placeholder="text">
+                              </div>
+                              <div class="form-group col-md-3">
+                                <label for="inputEmail4">date</label>
+                                <input type="date" class="form-control add__date" id="inputEmail4" placeholder="enter date">
+                              </div>
+                              <div class="form-group col-md-2">
+                                    <label for="inputZip">amount $</label>
+                                    <input type="text" class="form-control add__value" id="inputZip">
+                                  </div>
+                              <div class=" col-md-2 text-center">
+                                    
+                                    <a href="#" class=" add__btn"><i class="far fa-check-circle"></i></a>
+                              </div>
+                              
+                            </div>
+                          </form>
+            </div>
+        </div>
+    </div>
+    <div class="container mainn">
+        <div class="row">
+            <div class=" col-md-6 col-sm-6 col-12 income-list ">
+                   <h1 class="green text-center">Incomes</h1>
+                   
+            </div>
+            <div class=" col-md-6 col-sm-6 col-12 expenses-list">
+                <div class="exp">
+                        <h1 class="red text-center">Expenses</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        
+        
+        
+        
+        
+        
+         <!-- bootStrap-js links -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!---<script src = "script.js"></script> -->
+    <script src = "mainProject.js"></script>
+    </body>
+</html>

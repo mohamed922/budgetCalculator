@@ -1,0 +1,59 @@
+.header {
+    background-color:rgb(53, 53, 53) ;
+    color : whitesmoke ;
+    padding-bottom: 20px ;
+}
+.main {
+    background-color: rgb(240, 239, 239) ;
+}
+.content {
+    text-align: center ;
+}
+.income {
+    background-color: aqua ;
+    width: 300px ;
+    margin: 0 auto ;
+    padding: 5px ;
+    border-radius: 3px ;
+}
+
+.expense {
+    background-color:brown ;
+    width: 300px ;
+    margin: 0 auto ;
+    padding: 5px ;
+    border-radius: 3px ;
+}
+.black {
+    color: black ;
+    font-weight: bold
+}
+.green {
+    color:green ;
+    font-weight: bold
+}
+.blue {
+    color: rgb(8, 64, 167) ;
+    font-weight: bold
+}
+.fa-check-circle {
+    color: rgb(28, 106, 250) ;
+    font-size: 30px ;
+    margin-top: 35px
+}
+.inc-item , .exp-item{
+    border-bottom: 2px solid gray ;
+    padding: 5px ;
+}
+.red {
+    color : red;
+    font-weight: bold;
+}
+.perc {
+    border: 1px solid gray ;
+    border-radius: 5px ;
+    width: 50px ;
+    background-color: antiquewhite ;
+    color: red ;
+    text-align:center;
+}
